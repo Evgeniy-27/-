@@ -1,32 +1,9 @@
 import Person from './person';
 import Team from './team';
 
-const player1 = new Person({
-  name: 'Петя',
-  type: 'Человек',
-  health: 50,
-  level: 1,
-  attack: 40,
-  defence: 10,
-});
-
-const player2 = new Person({
-  name: 'Лучник',
-  type: 'Стрелок',
-  health: 50,
-  level: 1,
-  attack: 40,
-  defence: 10,
-});
-
-const player3 = new Person({
-  name: 'Мечник',
-  type: 'Рыцарь',
-  health: 100,
-  level: 1,
-  attack: 60,
-  defence: 60,
-});
+const player1 = new Person('Петя', 'Человек', 50, 1, 40, 10,);
+const player2 = new Person('Лучник', 'Стрелок', 50, 1, 40, 10,);
+const player3 = new Person('Мечник', 'Рыцарь', 100, 1, 60, 60,);
 
 const newTeam = new Team();
 
