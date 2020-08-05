@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "symbol-iterator",
   "version": "1.0.0",
-  "description": "",
+  "description": "В этом задании предполагается, что все персонажи содержат следующий набор полей:\r ```javascript\r const char = {\r   name: 'Лучник',\r   type: 'Bowman',\r   health: 50,\r   level: 1,\r   attack: 40,\r   defence: 10\r }\r ```",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -31,5 +31,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniy-27/Symbol-iterator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Evgeniy-27/Symbol-iterator/issues"
+  },
+  "homepage": "https://github.com/Evgeniy-27/Symbol-iterator#readme"
 }
